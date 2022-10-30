@@ -1,2 +1,7 @@
-# qt-worker-thread
-Implementation of a worker class without blocking teh main GUI thread.  
+# Worker thread architecture in QT
+
+Simple worker class implementation using QThread for synchronous processes.
+
+## Purpose
+- concurrency without blocking the main GUI thread
+- simulates a heavy computation
